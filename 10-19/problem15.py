@@ -4,9 +4,10 @@
 # and down, there are exactly 6 routes to the bottom corner.
 
 # How many such routes are there through a 20 x 20 grid?
-
+from math import factorial
 
 def findLatticePaths(gridSize):
-    return ((gridSize ** (gridSize))) - gridSize * 2
+    # use binomial coefficient with gridSize value
+    return factorial(gridSize * 2) // (factorial(gridSize) * factorial(gridSize))
 
-print(findLatticePaths(2))
+print(findLatticePaths(20))

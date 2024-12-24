@@ -4,3 +4,5 @@ This is how I saw ways to solve the first 100 problems from Project
 Euler.
 
 (work in progress)
+
+https://projecteuler.net/profile/rechris.png
