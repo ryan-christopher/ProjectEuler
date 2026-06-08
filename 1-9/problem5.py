@@ -14,7 +14,7 @@ def divByAll(num):
     # begin loop to check for each value of testVal, increment by num each loop
     while True:
         # for every value of testVal, go through all numbers between 1 and num
-        for i in range(1, num + 1):
+        for i in range(2, num + 1):
             # if any value between 1 and num is not evenly divided, break and continue search
             if (testVal / i).is_integer() == False:
                 break
