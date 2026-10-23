@@ -24,5 +24,7 @@ fn sum_square_diff(num: i32) -> i32 {
 }
  
 fn main() {
+    let start = std::time::Instant::now();
     println!("{}", sum_square_diff(100));
+    println!("Elapsed: {:?}", start.elapsed());
 }

@@ -36,5 +36,7 @@ fn find_nth_prime(n: i64) -> i64{
 }
  
 fn main() {
+    let start = std::time::Instant::now();
     println!("{}", find_nth_prime(10001));
+    println!("Elapsed: {:?}", start.elapsed());
 }

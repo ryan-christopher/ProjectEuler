@@ -32,5 +32,7 @@ fn find_triplets(sum_val: i32) -> (i32, i32, i32) {
 }
  
 fn main() {
+    let start = std::time::Instant::now();
     println!("{:?}", find_triplets(1000));
+    println!("Elapsed: {:?}", start.elapsed());
 }
